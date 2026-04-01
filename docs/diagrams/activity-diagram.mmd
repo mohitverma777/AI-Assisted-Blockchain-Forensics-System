@@ -1,0 +1,21 @@
+flowchart TD
+    A([Start]) --> B[Enter Wallet Address]
+    B --> C{Address Valid?}
+    C -- No --> D[Show Validation Error]
+    D --> B
+    C -- Yes --> E[Detect Blockchain Type]
+    E --> F[Fetch Wallet Transactions & Balance]
+    F --> G{Data Available?}
+    G -- No --> H[Return API Error / Demo Fallback]
+    H --> Z([End])
+    G -- Yes --> I[Compute Wallet Statistics]
+    I --> J[Run 10-Factor Risk Engine]
+    J --> K[Build Graph + Cluster Info]
+    K --> L[Generate AI Insights]
+    L --> M[Assemble API Response]
+    M --> N[Render Dashboard]
+    N --> O{Generate Report?}
+    O -- Yes --> P[Create HTML Report]
+    P --> Q[Display/Download Report]
+    O -- No --> Z
+    Q --> Z([End])

@@ -1,0 +1,26 @@
+# Backend Python Dependencies
+# AI-Assisted Blockchain Forensics System
+
+# Blockchain APIs
+requests>=2.31.0
+
+# Neo4j Graph Database
+neo4j>=5.14.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Data Processing
+python-dateutil>=2.8.2
+
+# Machine Learning (Clustering)
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# API Server
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Optional: Data Analysis
+# pandas>=2.0.0
+# numpy>=1.24.0

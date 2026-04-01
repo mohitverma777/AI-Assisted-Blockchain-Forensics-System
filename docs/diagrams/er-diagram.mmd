@@ -1,0 +1,70 @@
+erDiagram
+    WALLET ||--o{ TRANSACTION : participates_in
+    TRANSACTION ||--o{ TX_EDGE : creates
+    WALLET ||--o{ TX_EDGE : connected_to
+    WALLET ||--o| CLUSTER : belongs_to
+    WALLET ||--|| RISK_PROFILE : has
+    RISK_PROFILE ||--o{ RISK_FACTOR_SCORE : contains
+    WALLET ||--o{ AI_INSIGHT : receives
+    WALLET ||--o{ FORENSIC_REPORT : generates
+
+    WALLET {
+        string wallet_id PK
+        string address
+        string blockchain
+        string label
+        datetime first_seen
+    }
+
+    TRANSACTION {
+        string tx_hash PK
+        string blockchain
+        float amount
+        datetime timestamp
+        string status
+    }
+
+    TX_EDGE {
+        string edge_id PK
+        string from_wallet FK
+        string to_wallet FK
+        string tx_hash FK
+        float amount
+    }
+
+    CLUSTER {
+        string cluster_id PK
+        string algorithm
+        int size
+    }
+
+    RISK_PROFILE {
+        string profile_id PK
+        string wallet_id FK
+        float overall_score
+        string risk_band
+        datetime analyzed_at
+    }
+
+    RISK_FACTOR_SCORE {
+        string factor_id PK
+        string profile_id FK
+        string factor_name
+        float score
+        string reason
+    }
+
+    AI_INSIGHT {
+        string insight_id PK
+        string wallet_id FK
+        string summary
+        int confidence
+        string model
+    }
+
+    FORENSIC_REPORT {
+        string report_id PK
+        string wallet_id FK
+        string format
+        datetime generated_at
+    }

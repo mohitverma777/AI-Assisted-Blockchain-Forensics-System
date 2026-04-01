@@ -1,0 +1,13 @@
+flowchart TD
+    User[User/Investigator] --> P1[1.0 Wallet Input & Validation]
+    P1 --> P2[2.0 Blockchain Data Collection]
+    P2 --> DS1[(External APIs\nEtherscan/Blockchain.info)]
+    DS1 --> P2
+    P2 --> P3[3.0 Risk Computation Engine]
+    P2 --> P4[4.0 Graph Construction & Clustering]
+    P3 --> DS2[(Risk Profiles)]
+    P4 --> DS3[(Graph Store Neo4j Optional)]
+    P3 --> P5[5.0 AI Explanation & Recommendation]
+    P4 --> P5
+    P5 --> P6[6.0 Dashboard + Report Output]
+    P6 --> User

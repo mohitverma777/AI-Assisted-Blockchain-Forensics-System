@@ -1,0 +1,15 @@
+flowchart LR
+    U[Investigator/User] --> F[React Dashboard]
+    F -->|GET /api/wallet/:address| A[Flask API Server]
+    A --> B[Blockchain Fetcher]
+    A --> R[Risk Engine\n10 Factors]
+    A --> G[Graph Builder]
+    A --> C[Clustering Engine]
+    A --> AI[AI Explanation Generator]
+    A --> REP[Report Generator]
+    B --> E[(Etherscan API)]
+    B --> BI[(Blockchain.info API)]
+    G --> N[(Neo4j Optional)]
+    A -->|JSON response| F
+    F -->|GET /api/report/:address| A
+    A -->|HTML report| F
