@@ -81,25 +81,8 @@ This project was developed as a **Final Year Project** to demonstrate the applic
 
 ## Architecture
 
-```
-┌──────────────────────────────────────────────────────────┐
-│                    React Frontend (Vite)                  │
-│  WalletInput → StatsOverview → RiskGauge → Graph → AI   │
-└──────────────────────┬───────────────────────────────────┘
-                       │ HTTP (port 5173 → proxy → 5000)
-┌──────────────────────▼───────────────────────────────────┐
-│                   Flask API Server                        │
-│              /api/wallet/<address>                        │
-│              /api/report/<address>                        │
-│              /api/health                                  │
-└───┬──────┬──────┬──────┬──────┬──────┬───────────────────┘
-    │      │      │      │      │      │
-    ▼      ▼      ▼      ▼      ▼      ▼
- Fetcher  Graph  Risk  Cluster  AI   Report
- (APIs)  (Neo4j) Engine        NLP   HTML
-```
+![Architecture Diagram](docs/diagrams/architecture-diagram.png)
 
----
 
 ## Tech Stack
 
