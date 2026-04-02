@@ -313,7 +313,7 @@ Application snapshots are available in `docs/snapshots/` (guidelines: [docs/snap
 
 | Member | Role | Modules |
 |--------|------|---------|
-| **Mohit & Lrusha** | Backend & Integration | API Server, Integration Layer, Frontend |
+| **Mohit & krusha** | Backend & Integration | API Server, Integration Layer, Frontend |
 | **Shreya** | AI & Analysis | AI Explanation Generator, Risk Engine |
 | **Shubham** | Reports & Clustering | Report Generator, Clustering |
 | **Mohit & Krusha** | Frontend & Data | Dashboard UI, Blockchain Fetcher |
