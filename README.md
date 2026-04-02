@@ -15,6 +15,7 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
+- [Diagrams](#diagrams)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -305,6 +306,39 @@ Produces **self-contained HTML reports** with dark theme styling, risk gauge, st
 
 ### Module H — Integration Layer
 Orchestrates data flow between modules: fetch → graph → cluster → risk → AI → report.
+
+---
+
+## Diagrams
+
+System diagrams are available in `docs/diagrams/`:
+
+- [Architecture Diagram Source](docs/diagrams/architecture-diagram.mmd)
+- [Dataflow Diagram Source](docs/diagrams/dataflow-diagram.mmd)
+- [ER Diagram Source](docs/diagrams/er-diagram.mmd)
+- [Activity Diagram Source](docs/diagrams/activity-diagram.mmd)
+
+Rendered previews:
+
+![Architecture Diagram](docs/diagrams/architecture-diagram.png)
+![ER Diagram](docs/diagrams/er-diagram.png)
+![Flowchart](docs/diagrams/flowchart.png)
+
+---
+
+## Screenshots
+
+Application snapshots are available in `docs/snapshots/` (guidelines: [docs/snapshots/README.md](docs/snapshots/README.md)).
+
+| Screen | Preview |
+|--------|---------|
+| Home Dashboard | ![Home Dashboard](docs/snapshots/01-home-dashboard.png) |
+| Wallet Analysis Result | ![Wallet Analysis Result](docs/snapshots/02-wallet-analysis-result.png) |
+| Risk Breakdown | ![Risk Breakdown](docs/snapshots/03-risk-breakdown.png) |
+| Transaction Graph | ![Transaction Graph](docs/snapshots/04-transaction-graph.png) |
+| AI Insights (1) | ![AI Insights 1](docs/snapshots/05-ai-insights1.png) |
+| AI Insights (2) | ![AI Insights 2](docs/snapshots/05-ai-insights2.png) |
+| Transaction History | ![Transaction History](docs/snapshots/05-transaction_history.png) |
 
 ---
 
