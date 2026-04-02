@@ -15,7 +15,6 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Architecture](#architecture)
-- [Diagrams](#diagrams)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -292,22 +291,7 @@ Orchestrates data flow between modules: fetch → graph → cluster → risk →
 
 ---
 
-## Diagrams
 
-System diagrams are available in `docs/diagrams/`:
-
-- [Architecture Diagram Source](docs/diagrams/architecture-diagram.mmd)
-- [Dataflow Diagram Source](docs/diagrams/dataflow-diagram.mmd)
-- [ER Diagram Source](docs/diagrams/er-diagram.mmd)
-- [Activity Diagram Source](docs/diagrams/activity-diagram.mmd)
-
-Rendered previews:
-
-![Architecture Diagram](docs/diagrams/architecture-diagram.png)
-![ER Diagram](docs/diagrams/er-diagram.png)
-![Flowchart](docs/diagrams/flowchart.png)
-
----
 
 ## Screenshots
 
