@@ -315,7 +315,7 @@ Application snapshots are available in `docs/snapshots/` (guidelines: [docs/snap
 |--------|------|---------|
 | **Mohit & krusha** | Backend & Integration | API Server, Integration Layer, Frontend |
 | **Shreya** | AI & Analysis | AI Explanation Generator, Risk Engine |
-| **Isha & Shreya ** | Blockchain Data Fetcher | API integration, error handling, data validation |
+| **Isha & Shreya** | Blockchain Data Fetcher | API integration, error handling, data validation |
 | **Shubham** | Reports & Clustering | Report Generator, Clustering |
 | **Mohit & Krusha** | Frontend & Data | Dashboard UI, Blockchain Fetcher |
 
