@@ -27,9 +27,9 @@
 
 ## Overview
 
-The **AI-Assisted Blockchain Forensics System** is a full-stack application designed for analyzing cryptocurrency wallet addresses. It fetches real blockchain data from Ethereum and Bitcoin networks, constructs transaction graphs, applies clustering algorithms, calculates risk scores based on 10 forensic factors, and generates human-readable AI explanations — all presented through an interactive dark-mode dashboard.
+The **AI-Assisted Blockchain Forensics System** is a comprehensive **full-stack platform** built to **investigate cryptocurrency wallet activity**. It integrates live data from both **Ethereum and Bitcoin** networks, constructs detailed **transaction graphs**, applies** clustering techniques**, and **evaluates risk** using ten forensic indicators. The system then produces clear, **AI-generated explanations**, all delivered through an interactive dark-mode dashboard.
 
-This project was developed as a **Final Year Project** to demonstrate the application of artificial intelligence and graph analytics in blockchain forensic investigation.
+Developed as a Final Year Project, it showcases how artificial intelligence and graph analytics can be applied to enhance blockchain forensic investigations.
 
 ---
 
