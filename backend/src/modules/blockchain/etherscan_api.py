@@ -4,7 +4,7 @@ import webbrowser
 
 
 # ---------------- CONFIG ----------------
-API_KEY = "FUZ63ZZJBY6AK2CBHPKEWDEDGMP9QWIVUQE"
+API_KEY = "etherscan_api_key"
 TARGET_WALLET = "0xF977814e90dA44bFA03b6295A0616a897441aceC"
 
 BASE_URL = "https://api.etherscan.io/v2/api"
