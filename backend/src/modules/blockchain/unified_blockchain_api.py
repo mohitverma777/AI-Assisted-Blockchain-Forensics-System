@@ -12,7 +12,7 @@ import os
 class BlockchainForensics:
     def __init__(self):
         # Try to get API key from environment, fallback to hardcoded (for development only)
-        self.etherscan_api_key = os.getenv('ETHERSCAN_API_KEY', 'FUZ63ZZJBY6AK2CBHPKEWDEDGMP9QWIVUQE')
+        self.etherscan_api_key = os.getenv('ETHERSCAN_API_KEY')
         self.etherscan_base_url = "https://api.etherscan.io/v2/api"
         self.bitcoin_base_url = "https://blockchain.info"
     
